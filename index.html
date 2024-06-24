@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="container" class="container">
+        <aside id="sidebar">
+            <div id="logoSection">
+                <div id="logo">
+                    <img src="./images/logo.avif" alt="logo_img">
+                    <h2>FL<span class="danger">Y</span></h2>
+                </div>
+                <div id="closeicon">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div id="sidelinks">
+                <a href="#" class="active">
+                    <i class="ri-dashboard-line"></i>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <i class="ri-user-line"></i>
+                    <h3>Customers</h3>
+                </a>
+                <a href="#">
+                    <i class="ri-file-list-line"></i>
+                    <h3>Orders</h3>
+                </a>
+                <a href="#">
+                    <i class="ri-bar-chart-line"></i>
+                    <h3>Analytics</h3>
+                </a>
+                <a href="#">
+                    <i class="ri-mail-line"></i>
+                    <h3>Messages</h3>
+                    <span id="msgCount">24</span>
+                </a>
+                <a href="#">
+                    <i class="ri-list-view"></i>
+                    <h3>Products</h3>
+                </a>
+                <a href="#">
+                    <i class="ri-account-circle-line"></i>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <i class="ri-settings-3-fill"></i>
+                    <h3>Setting</h3>
+                </a>
+                <a href="#">
+                    <i class="ri-add-fill"></i>
+                    <h3>Add Product</h3>
+                </a>
+                <a href="#">
+                    <i class="ri-login-box-line"></i>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- ending of the aside section  -->
+
+        <main>
+            <h1>Dashboard</h1>
+            <div id="date">
+                <input type="date">
+            </div>
+            <div id="insights">
+                <div id="sales">
+                    <i class="ri-bar-chart-box-fill"></i>
+                    <div id="middle">
+                        <div id="left">
+                            <h3>Total Sales</h3>
+                            <h1>$25,024</h1>
+                        </div>
+                        <div id="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="30"></circle>
+                            </svg>
+                            <div id="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="textMuted small">
+                        Last 24 Hours
+                    </small>
+                </div>
+                <!-- end of the sales  -->
+
+                <div id="expenses">
+                    <i class="ri-organization-chart"></i>
+                    <div id="middle">
+                        <div id="left">
+                            <h3>Total Expenses</h3>
+                            <h1>$14,525</h1>
+                        </div>
+                        <div id="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="30"></circle>
+                            </svg>
+                            <div id="number">
+                                <p>62%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="textMuted small">
+                        Last 24 Hours
+                    </small>
+                </div>
+                <!-- end of the expenses -->
+
+                <div id="income">
+                    <i class="ri-line-chart-line"></i>
+                    <div id="middle">
+                        <div id="left">
+                            <h3>Total Income</h3>
+                            <h1>$30,164</h1>
+                        </div>
+                        <div id="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="30"></circle>
+                            </svg>
+                            <div id="number">
+                                <p>45%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="textMuted small">
+                        Last 24 Hours
+                    </small>
+                </div>
+                <!-- end of the Income  -->
+            </div>
+            <div id="recentOrders">
+                <h2>Recent Orders</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Product Number</th>
+                            <th>Payments</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Flodable mini Drone</td>
+                            <td>86711</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Flodable mini Drone</td>
+                            <td>86711</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Flodable mini Drone</td>
+                            <td>86711</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Flodable mini Drone</td>
+                            <td>86711</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Flodable mini Drone</td>
+                            <td>86711</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Flodable mini Drone</td>
+                            <td>86711</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="/">Show All</a>
+            </div>
+        </main>
+        <!-- ending of the main section of Dashboard -->
+
+        <div id="right">
+            <div id="top">
+                <button id="menubtn">
+                    <i class="ri-menu-line"></i>
+                </button>
+                <div id="theme">
+                    <i class="ri-sun-line active"></i>
+                    <i class="ri-moon-clear-fill"></i>
+                </div>
+                <div id="profile">
+                    <div id="info">
+                        <p>Hey, <b>Vishu</b></p>
+                        <small class="textMuted">Admin</small>
+                    </div>
+                    <div class="profilepic">
+                        <img src="./images/progile.png" alt="profile image">
+                    </div>
+                </div>
+            </div>
+            <!-- end of the top -->
+
+            <div id="recentUpdates">
+                <h2>Recent Updates</h2>
+                <div id="updates">
+                    <div class="update">
+                        <div class="profilepic">
+                            <img src="https://www.shutterstock.com/image-vector/zoro-kawai-chibi-cute-onepiece-260nw-2225165159.jpg"
+                                alt="updatepic">
+                        </div>
+                        <div class="message">
+                            <p><b>Vishu Verma</b> his order of Night lion tech GPS drone.</p>
+                            <small class="textMuted">5 Minutes Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profilepic">
+                            <img src="https://www.hindustantimes.com/ht-img/img/2023/12/21/550x309/one_piece_gear_5_1691322181077_1703152176723.jpg"
+                                alt="updatepic">
+                        </div>
+                        <div class="message">
+                            <p><b>Vishu Verma</b> his order of Night lion tech GPS drone.</p>
+                            <small class="textMuted">5 Minutes Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profilepic">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHUG7wqa6MP59ja9XAYvWtNVeNoXcvUa3WgQ&s"
+                                alt="updatepic">
+                        </div>
+                        <div class="message">
+                            <p><b>Vishu Verma</b> his order of Night lion tech GPS drone.</p>
+                            <small class="textMuted">5 Minutes Ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ending of the recent updates  -->
+
+            <div id="salesAnalyict">
+                <h2>Sale Analytics</h2>
+                <div class="item online">
+                    <div id="icon">
+                        <i class="ri-shopping-cart-fill"></i>
+                    </div>
+                    <div class="info">
+                        <h3>Online Orders</h3>
+                        <small class="textMuted">Last 24 Hours</small>
+                        <h5 class="success">+39%</h5>
+                        <h3>3949</h3>
+                    </div>
+                </div>
+                <div class="item offline">
+                    <div id="icon">
+                        <i class="ri-shopping-bag-4-fill"></i>
+                    </div>
+                    <div class="info">
+                        <h3>Offline Orders</h3>
+                        <small class="textMuted">Last 24 Hours</small>
+                        <h5 class="danger"> -19%</h5>
+                        <h3>1078</h3>
+                    </div>
+                </div>
+                <div class="item customers">
+                    <div id="icon">
+                        <i class="ri-group-2-fill"></i>
+                    </div>
+                    <div class="info">
+                        <h3>New Customer</h3>
+                        <small class="textMuted">Last 24 Hours</small>
+                        <h5 class="success">+25%</h5>
+                        <h3>112</h3>
+                    </div>
+                </div>
+                <div class="item addProduct">
+                    <div>
+                        <i class="ri-apps-2-add-line"></i>
+                        <h2>App Product</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
